@@ -1,0 +1,20 @@
+#container {
+  height: 600px;
+}
+
+#blank {
+  height: 400px;
+}
+
+#center {
+  height: 100px;
+  text-align: center;
+}
+
+#changemycolor {
+  background-color: black;
+}
+
+#textcolor {
+    color: white;
+}
