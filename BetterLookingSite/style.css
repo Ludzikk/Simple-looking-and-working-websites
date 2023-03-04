@@ -1,0 +1,78 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+#name {
+  background: -webkit-linear-gradient(
+    0deg,
+    #ffd000 25%,
+    #ff5b5b 50%,
+    rgb(253, 255, 254) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#info {
+  height: 800px;
+  text-align: center;
+  font-size: 24px;
+  background: -webkit-linear-gradient(
+    0deg,
+    #ffd000 25%,
+    #ff5b5b 50%,
+    rgb(234, 255, 243) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#projectsdiv {
+  height: 100px;
+  text-align: center;
+}
+
+#projectsinfo {
+  background: -webkit-linear-gradient(
+    0deg,
+    #ffd000 25%,
+    #ff5b5b 50%,
+    rgb(234, 255, 243) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  margin-top: 100px;
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 14, 1) 0%,
+    rgba(0, 164, 255, 1) 100%
+  );
+  color: rgb(255, 255, 255);
+  font-family: fantasy;
+}
+
+#picture {
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.icon {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#aboutme {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
